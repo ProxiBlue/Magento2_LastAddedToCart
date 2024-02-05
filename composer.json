@@ -1,0 +1,20 @@
+{
+  "name": "proxi-blue/module-last-added-to-cart",
+  "version": "1.0.0",
+  "description": "A demo module to show how to inject custom data into the sectionData",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": [
+    "Massachusetts Institute of Technology License (MITL)"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "ProxiBlue\\LastAddedToCart\\": ""
+    }
+  }
+}
